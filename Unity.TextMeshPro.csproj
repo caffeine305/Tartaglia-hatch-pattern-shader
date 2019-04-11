@@ -698,7 +698,6 @@
     <Compile Include="Packages\com.unity.textmeshpro\Scripts\Runtime\TMPro_UGUI_Private.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Cinemachine\ReleaseNotes.txt" />
     <None Include="Assets\NPRSketchEffect\ReadMe.txt" />
     <None Include="Assets\NPRSketchEffect\Shader\Background.shader" />
     <None Include="Assets\NPRSketchEffect\Shader\PencilContour.shader" />

@@ -738,7 +738,6 @@
     <Compile Include="Packages\com.unity.package-manager-ui\Editor\Sources\UI\PackageStatusBar.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Cinemachine\ReleaseNotes.txt" />
     <None Include="Assets\NPRSketchEffect\ReadMe.txt" />
     <None Include="Assets\NPRSketchEffect\Shader\Background.shader" />
     <None Include="Assets\NPRSketchEffect\Shader\PencilContour.shader" />

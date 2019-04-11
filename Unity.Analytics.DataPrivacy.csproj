@@ -656,7 +656,6 @@
     <Compile Include="Packages\com.unity.analytics\DataPrivacy\DataPrivacyButton.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Cinemachine\ReleaseNotes.txt" />
     <None Include="Assets\NPRSketchEffect\ReadMe.txt" />
     <None Include="Assets\NPRSketchEffect\Shader\Background.shader" />
     <None Include="Assets\NPRSketchEffect\Shader\PencilContour.shader" />
