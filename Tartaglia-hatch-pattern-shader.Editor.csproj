@@ -337,6 +337,9 @@
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>C:/Users/Ricardo/Documents/GitHub/Tartaglia/Tartaglia-hatch-pattern-shader/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
+    <Reference Include="Google.ProtocolBuffers">
+      <HintPath>Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
     </Reference>
@@ -719,52 +722,37 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineBasicMultiChannelPerlinEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineBlenderSettingsEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineBlendListCameraEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineBrainEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineClearShotEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineColliderEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineComposerEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineConfinerEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineExternalCameraEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineFramingTransposerEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineFreeLookEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineGroupComposerEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineHardLockToTargetEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineHardLookAtEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineMixingCameraEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineOrbitalTransposerEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachinePathEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachinePOVEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineScreenComposerGuides.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineSmoothPathEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineStateDrivenCameraEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineTargetGroupEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineTrackedDollyEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineTransposerEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineVirtualCameraBaseEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineVirtualCameraEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Menus\CinemachineMenu.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\PropertyDrawers\CinemachineBlendDefinitionPropertyDrawer.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\PropertyDrawers\CinemachineTagFieldPropertyDrawer.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\PropertyDrawers\GetSetDrawer.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\PropertyDrawers\LensSettingsPropertyDrawer.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\PropertyDrawers\MinDrawer.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Utility\BaseEditor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Utility\EmbeddedAssetHelpers.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Utility\SaveDuringPlay.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Utility\ScriptableObjectUtility.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Utility\SerializedPropertyHelper.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Windows\AboutWindow.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Windows\CinemachineColliderPrefs.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Editor\Windows\CinemachineSettings.cs" />
-    <Compile Include="Assets\Cinemachine\PostFX\Editor\CinemachinePostProcessingEditor.cs" />
-    <Compile Include="Assets\Cinemachine\PostFX\Editor\PostFXAutoImport.cs" />
-    <Compile Include="Assets\Cinemachine\Timeline\Editor\CinemachineShotEditor.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Editor\DemoInputManagerEditor.cs" />
+    <Compile Include="Assets\GoogleVR\Demos\Editor\PermissionsDemoBuildProcessor.cs" />
+    <Compile Include="Assets\GoogleVR\Editor\Controller\GvrControllerVisualEditor.cs" />
+    <Compile Include="Assets\GoogleVR\Editor\Controller\GvrLaserPointerEditor.cs" />
+    <Compile Include="Assets\GoogleVR\Editor\Controller\GvrLaserVisualEditor.cs" />
+    <Compile Include="Assets\GoogleVR\Editor\Controller\GvrTooltipEditor.cs" />
+    <Compile Include="Assets\GoogleVR\Editor\EventSystem\GvrPointerScrollInputEditor.cs" />
+    <Compile Include="Assets\GoogleVR\Editor\GvrBuildProcessor.cs" />
+    <Compile Include="Assets\GoogleVR\Editor\GvrEditorEmulatorEditor.cs" />
+    <Compile Include="Assets\GoogleVR\Editor\GvrEditorMenu.cs" />
+    <Compile Include="Assets\GoogleVR\Editor\GvrEditorSettings.cs" />
+    <Compile Include="Assets\GoogleVR\Editor\GvrHeadsetEditor.cs" />
+    <Compile Include="Assets\GoogleVR\Editor\InstantPreviewEditor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Cinemachine\ReleaseNotes.txt" />
+    <None Include="Assets\GoogleVR\Beta\Shaders\GvrSeeThroughUI.shader" />
+    <None Include="Assets\GoogleVR\Demos\Shaders\HelloVR\HelloVRUnlitGrayscaleToColor.shader" />
+    <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-6DOF.xml" />
+    <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
+    <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Daydream.xml" />
+    <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
+    <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrControllerReticle.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
+    <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
+    <None Include="Assets\GoogleVR\Shaders\Video\VideoUnlitShader.shader" />
     <None Include="Assets\NPRSketchEffect\ReadMe.txt" />
     <None Include="Assets\NPRSketchEffect\Shader\Background.shader" />
     <None Include="Assets\NPRSketchEffect\Shader\PencilContour.shader" />
