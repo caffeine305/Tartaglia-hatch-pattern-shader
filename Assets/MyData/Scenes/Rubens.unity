@@ -370,6 +370,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 642364750}
     m_Modifications:
+    - target: {fileID: 100714, guid: 5ef0ea6aacd32894b88b9cd69c9ea5f5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100726, guid: 5ef0ea6aacd32894b88b9cd69c9ea5f5, type: 3}
       propertyPath: m_Name
       value: Rubens
@@ -378,15 +382,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 100742, guid: 5ef0ea6aacd32894b88b9cd69c9ea5f5, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100714, guid: 5ef0ea6aacd32894b88b9cd69c9ea5f5, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 100740, guid: 5ef0ea6aacd32894b88b9cd69c9ea5f5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100742, guid: 5ef0ea6aacd32894b88b9cd69c9ea5f5, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -675,7 +675,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &1493898630
 Light:
   m_ObjectHideFlags: 0
