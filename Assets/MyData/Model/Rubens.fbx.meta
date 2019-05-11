@@ -347,34 +347,36 @@ ModelImporter:
     100682: Bone.051_end_end 1
     100684: Bone.051_end_end 2
     100686: Bone.051_end_end_end
-    100688: "Can\xEDa_L"
-    100690: "Can\xEDa_R"
-    100692: CLoth A
-    100694: Cube
-    100696: Cylinder
-    100698: Knee_L
-    100700: Knee_L_end
-    100702: Knee_L_end_end
-    100704: Knee_L_end_end_end
-    100706: Knee_R
-    100708: Knee_R_end
-    100710: Knee_R_end_end
-    100712: Knee_R_end_end_end
-    100714: Lamp
-    100716: Piso
-    100718: Plane
-    100720: Plane.002
-    100722: Plane.003
-    100724: //RootNode
-    100726: Sphere
-    100728: Sphere.001
-    100730: Sphere.002
-    100732: Sphere.003
-    100734: Sun
-    100736: "Tal\xF3n_L"
-    100738: "Tal\xF3n_R"
-    100740: Torch
-    100742: TorchAux
+    100688: Camera
+    100690: "Can\xEDa_L"
+    100692: "Can\xEDa_R"
+    100694: CLoth A
+    100696: Cube.001
+    100698: Cylinder
+    100700: Knee_L
+    100702: Knee_L_end
+    100704: Knee_L_end_end
+    100706: Knee_L_end_end_end
+    100708: Knee_R
+    100710: Knee_R_end
+    100712: Knee_R_end_end
+    100714: Knee_R_end_end_end
+    100716: Lamp
+    100718: Piso
+    100720: Plane
+    100722: Plane.002
+    100724: Plane.003
+    100726: Real
+    100728: //RootNode
+    100730: Sphere
+    100732: Sphere.001
+    100734: Sphere.002
+    100736: Sphere.003
+    100738: Sun
+    100740: "Tal\xF3n_L"
+    100742: "Tal\xF3n_R"
+    100744: Torch
+    100746: TorchAux
     400000: Armature
     400002: Armature.001
     400004: Armature.002
@@ -719,38 +721,46 @@ ModelImporter:
     400682: Bone.051_end_end 1
     400684: Bone.051_end_end 2
     400686: Bone.051_end_end_end
-    400688: "Can\xEDa_L"
-    400690: "Can\xEDa_R"
-    400692: CLoth A
-    400694: Cube
-    400696: Cylinder
-    400698: Knee_L
-    400700: Knee_L_end
-    400702: Knee_L_end_end
-    400704: Knee_L_end_end_end
-    400706: Knee_R
-    400708: Knee_R_end
-    400710: Knee_R_end_end
-    400712: Knee_R_end_end_end
-    400714: Lamp
-    400716: Piso
-    400718: Plane
-    400720: Plane.002
-    400722: Plane.003
-    400724: //RootNode
-    400726: Sphere
-    400728: Sphere.001
-    400730: Sphere.002
-    400732: Sphere.003
-    400734: Sun
-    400736: "Tal\xF3n_L"
-    400738: "Tal\xF3n_R"
-    400740: Torch
-    400742: TorchAux
+    400688: Camera
+    400690: "Can\xEDa_L"
+    400692: "Can\xEDa_R"
+    400694: CLoth A
+    400696: Cube.001
+    400698: Cylinder
+    400700: Knee_L
+    400702: Knee_L_end
+    400704: Knee_L_end_end
+    400706: Knee_L_end_end_end
+    400708: Knee_R
+    400710: Knee_R_end
+    400712: Knee_R_end_end
+    400714: Knee_R_end_end_end
+    400716: Lamp
+    400718: Piso
+    400720: Plane
+    400722: Plane.002
+    400724: Plane.003
+    400726: Real
+    400728: //RootNode
+    400730: Sphere
+    400732: Sphere.001
+    400734: Sphere.002
+    400736: Sphere.003
+    400738: Sun
+    400740: "Tal\xF3n_L"
+    400742: "Tal\xF3n_R"
+    400744: Torch
+    400746: TorchAux
+    2000000: Camera
     2100000: No Name
-    2100002: Material.001
+    2100002: Angel_Mat
+    2100004: Atlas_Material
+    2100006: Front_cloth_Mat
+    2100008: Cloth_A
+    2100010: Cloth_A1_Mat
+    2100012: Loin_cloth_mat
     2300000: CLoth A
-    2300002: Cube
+    2300002: Cube.001
     2300004: Cylinder
     2300006: Piso
     2300008: Plane
@@ -758,7 +768,7 @@ ModelImporter:
     2300012: Plane.003
     2300014: Sphere
     3300000: CLoth A
-    3300002: Cube
+    3300002: Cube.001
     3300004: Cylinder
     3300006: Piso
     3300008: Plane
@@ -776,12 +786,13 @@ ModelImporter:
     4300016: Cylinder
     4300018: Plane
     4300020: Plane.003
-    4300022: Cube
+    4300022: Cube.001
     9500000: //RootNode
     10800000: Lamp
-    10800002: Sun
-    10800004: Torch
-    10800006: TorchAux
+    10800002: Real
+    10800004: Sun
+    10800006: Torch
+    10800008: TorchAux
     13700000: Atlaos
     13700002: Sphere.001
     13700004: Sphere.002
