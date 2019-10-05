@@ -8,13 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: Assets/MyData/Scenes/Tartaglia.unity
     guid: 3517a4eeffaf5224bbe6ab9d78967b71
   - enabled: 0
     path: Assets/MyData/Scenes/RubensVR.unity
     guid: 680f36201a50435429bce62fa0c17264
-  - enabled: 1
+  - enabled: 0
     path: Assets/MyData/Scenes/Artemisia.unity
     guid: e11a8a5649592a547b650d7de758bcb5
   m_configObjects: {}
